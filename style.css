@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  height: 60px;
+  width: 100%;
+}
+.container1 {
+  background-color: rgb(255, 225, 0);
+  position: fixed;
+  font-family: cursive;
+  height: 60px;
+  width: 100%;
+  text-align: center;
+}
+#entry {
+  width: 5pc;
+  margin: 1pc;
+  padding: 5px;
+}
+.container1 h1 {
+  margin: 10px;
+}
+.body {
+  display: flex;
+  height: 50pc;
+}
+.result {
+  width: 50%;
+  background-color: rgb(0, 234, 255);
+}
+.form {
+  width: 50%;
+  background-color: rgb(250, 215, 246);
+}
+.form h1 {
+  text-align: center;
+}
+.body input {
+  padding: 5px;
+}
+.cont6 {
+  margin: 6pc;
+}
+.cont7 {
+  padding: 1pc;
+  margin: 5pc;
+}
+.result h1 {
+  text-align: center;
+}
+.button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.harry {
+  color: blue;
+}

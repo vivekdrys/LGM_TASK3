@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>REGISTRATION FORM</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <nav class="container1">
+        <h1>STUDENT ENROLLMENT FORM</h1>
+      </nav>
+    </div>
+    <div class="body">
+      <div class="form">
+        <h1 class="harry">FILL DETAILS</h1>
+        <div class="cont6">
+          <ol>
+            <li>
+              <h2>Name</h2>
+              <input type="text" name="fname" id="fname" />
+            </li>
+            <li>
+              <h2>Email</h2>
+              <input type="text" name="email" id="email" />
+            </li>
+            <li>
+              <h2>Age</h2>
+              <input type="text" name="age" id="age" />
+            </li>
+            <li>
+              <h2>Sex</h2>
+              <input type="text" name="sex" id="sex" />
+            </li>
+            <li>
+              <h2>Number</h2>
+              <input type="text" name="number" id="number" />
+            </li>
+          </ol>
+          <button id="entry" class="button" onclick="AddRow()">register</button>
+        </div>
+      </div>
+      <div class="result">
+        <h1 class="harry">Enrolled Students</h1>
+        <div class="cont7">
+          <table border="4" id="show">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>email</th>
+                <th>Age</th>
+                <th>sex</th>
+                <th>Number</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
